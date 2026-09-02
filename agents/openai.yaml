@@ -1,7 +1,7 @@
 interface:
   display_name: "AI 产品经理"
-  short_description: "完整分析 AI 项目的模型、知识库、工具、评估、成本与风险"
-  default_prompt: "使用 $ai-product-manager 对我的 AI 项目做一次完整分析，覆盖知识库、向量检索、工具调用、重试、评估、成本、安全和上线方案。"
+  short_description: "完整分析 AI 产品的模型、工作流、工具、成本与安全"
+  default_prompt: "使用 $ai-product-manager 对我的 AI 项目做完整分析，并检查 Prompt、结构化输出、工作流、工具权限、人工确认和提示词注入。"
 
 policy:
   allow_implicit_invocation: true
